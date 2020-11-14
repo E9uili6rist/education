@@ -1,4 +1,4 @@
-n = 3
+n = int(input())
 largest1 = -1
 for i in range(n):
     num = int(input())
