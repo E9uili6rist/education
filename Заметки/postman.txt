@@ -1,0 +1,46 @@
+# !!!GET /data - получить все строки из таблицы data_study:
+#   В Postman выберите метод GET
+#   В поле URL введите: http://localhost:5000/data
+#   Нажмите кнопку Send
+#   Вы получите JSON с данными из таблицы
+#
+#
+# !!!POST /data - добавить новую строку в таблицу data_study:
+#   В Postman выберите метод POST
+#   В поле URL введите: http://localhost:5000/data
+#   Перейдите во вкладку Body
+#    Выберите raw и тип данных JSON
+#   В поле ввода введите: {"text": "Ваш новый текст"}
+#   Нажмите кнопку Send
+#   Вы получите сообщение "Data added successfully."
+#
+#
+# !!!DELETE /data - удалить все строки из таблицы data_study:
+#   В Postman выберите метод DELETE
+#   В поле URL введите: http://localhost:5000/data
+#   Нажмите кнопку Send
+#   Вы получите сообщение "Table cleared and sequence reset."
+#
+#
+# !!!GET /data/<id> - получить строку с указанным id:
+#   В Postman выберите метод GET
+#   В поле URL введите: http://localhost:5000/data/1 (замените 1 на нужный id)
+#   Нажмите кнопку Send
+#   Вы получите JSON с данными указанной строки
+#
+#
+# !!!PUT /data/<id> - обновить текст строки с указанным id:
+#   В Postman выберите метод PUT
+#   В поле URL введите: http://localhost:5000/data/1 (замените 1 на нужный id)
+#   Перейдите во вкладку Body
+#   Выберите raw и тип данных JSON
+#   В поле ввода введите: {"text": "Новый текст"}
+#   Нажмите Send
+#   Вы получите сообщение "Data updated successfully."
+#
+#
+# !!!DELETE /data/<id> - удалить строку с указанным id:
+#   В Postman выберите метод DELETE
+#   В поле URL введите: http://localhost:5000/data/1 (замените 1 на нужный id строки)
+#   Нажмите Send
+#   Вы получите сообщение "Data deleted successfully."
